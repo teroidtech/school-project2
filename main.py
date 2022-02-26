@@ -165,7 +165,7 @@ def documentation():
     f = open("documentation.txt")
     fdata = f.read()
     f.close()
-    label1 = Label(window, text="Documentation")
+    label1 = Label(window, text="README.txt")
     label2 = Label(window, text=fdata)
     label1.pack()
     label2.pack()
